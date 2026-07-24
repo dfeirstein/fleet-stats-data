@@ -2,8 +2,9 @@
 r"""Append (or update) today's UTC download snapshot in snapshots.json.
 
 Classification replicates fleet-stats index.html exactly:
-  installs = assets matching /\.dmg$/i
-  updates  = assets matching /\.tar\.gz$/i or /latest\.json$/i (else-if after installer)
+  installs = assets matching /\.dmg$/i          (new installs)
+  updates  = assets matching /\.tar\.gz$/i      (update packages delivered)
+  checks   = assets matching /latest\.json$/i   (updater heartbeat polls)
   total    = every asset's download_count
 Single page, per_page=100 — same as the dashboard (both undercount past 100 releases,
 consistently).
@@ -20,7 +21,8 @@ REPO = "dfeirstein/fleet-desktop-releases"
 SNAPSHOTS = Path(__file__).resolve().parent.parent / "snapshots.json"
 
 IS_INSTALLER = re.compile(r"\.dmg$", re.I)
-IS_UPDATER = re.compile(r"\.tar\.gz$|latest\.json$", re.I)
+IS_UPDATE = re.compile(r"\.tar\.gz$", re.I)
+IS_CHECK = re.compile(r"latest\.json$", re.I)
 
 
 def fetch_releases():
@@ -37,25 +39,30 @@ def fetch_releases():
 
 def main():
     releases = fetch_releases()
-    total = installs = updates = 0
+    total = installs = updates = checks = 0
     per_version = {}
     for r in releases:
-        release_total = 0
+        v = {"installs": 0, "updates": 0, "checks": 0}
         for a in r.get("assets") or []:
             n = a["download_count"]
-            release_total += n
+            total += n
             if IS_INSTALLER.search(a["name"]):
-                installs += n
-            elif IS_UPDATER.search(a["name"]):
-                updates += n
-        total += release_total
-        per_version[r["tag_name"]] = release_total
+                v["installs"] += n
+            elif IS_UPDATE.search(a["name"]):
+                v["updates"] += n
+            elif IS_CHECK.search(a["name"]):
+                v["checks"] += n
+        installs += v["installs"]
+        updates += v["updates"]
+        checks += v["checks"]
+        per_version[r["tag_name"]] = v
 
     entry = {
         "date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "total": total,
         "installs": installs,
         "updates": updates,
+        "checks": checks,
         "perVersion": per_version,
     }
 
@@ -69,7 +76,7 @@ def main():
 
     SNAPSHOTS.write_text(json.dumps(snapshots, indent=2) + "\n")
     print(f"{entry['date']}: total={total} installs={installs} updates={updates} "
-          f"versions={len(per_version)}")
+          f"checks={checks} versions={len(per_version)}")
 
 
 if __name__ == "__main__":
