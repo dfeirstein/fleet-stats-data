@@ -866,5 +866,454 @@
         "checks": 0
       }
     }
+  },
+  {
+    "date": "2026-07-26",
+    "total": 1400,
+    "installs": 72,
+    "updates": 256,
+    "checks": 1067,
+    "perVersion": {
+      "v1.0.8": {
+        "installs": 1,
+        "updates": 2,
+        "checks": 37
+      },
+      "v1.0.7": {
+        "installs": 8,
+        "updates": 5,
+        "checks": 39
+      },
+      "v1.0.6": {
+        "installs": 1,
+        "updates": 4,
+        "checks": 5
+      },
+      "v1.0.5": {
+        "installs": 3,
+        "updates": 3,
+        "checks": 16
+      },
+      "v1.0.4": {
+        "installs": 0,
+        "updates": 3,
+        "checks": 6
+      },
+      "v1.0.3": {
+        "installs": 3,
+        "updates": 5,
+        "checks": 146
+      },
+      "v1.0.2": {
+        "installs": 3,
+        "updates": 6,
+        "checks": 76
+      },
+      "v1.0.1": {
+        "installs": 5,
+        "updates": 2,
+        "checks": 14
+      },
+      "v1.0.0": {
+        "installs": 3,
+        "updates": 3,
+        "checks": 23
+      },
+      "v0.1.81": {
+        "installs": 0,
+        "updates": 5,
+        "checks": 33
+      },
+      "v0.1.80": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 12
+      },
+      "v0.1.79": {
+        "installs": 1,
+        "updates": 3,
+        "checks": 41
+      },
+      "v0.1.78": {
+        "installs": 1,
+        "updates": 4,
+        "checks": 61
+      },
+      "v0.1.77": {
+        "installs": 0,
+        "updates": 3,
+        "checks": 21
+      },
+      "v0.1.76": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 8
+      },
+      "v0.1.75": {
+        "installs": 4,
+        "updates": 4,
+        "checks": 95
+      },
+      "v0.1.74": {
+        "installs": 4,
+        "updates": 2,
+        "checks": 23
+      },
+      "v0.1.73": {
+        "installs": 3,
+        "updates": 3,
+        "checks": 40
+      },
+      "v0.1.72": {
+        "installs": 1,
+        "updates": 3,
+        "checks": 55
+      },
+      "v0.1.71": {
+        "installs": 1,
+        "updates": 3,
+        "checks": 36
+      },
+      "v0.1.70": {
+        "installs": 1,
+        "updates": 3,
+        "checks": 16
+      },
+      "v0.1.69": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 10
+      },
+      "v0.1.68": {
+        "installs": 1,
+        "updates": 4,
+        "checks": 24
+      },
+      "v0.1.67": {
+        "installs": 1,
+        "updates": 2,
+        "checks": 12
+      },
+      "v0.1.66": {
+        "installs": 1,
+        "updates": 1,
+        "checks": 4
+      },
+      "v0.1.65": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 5
+      },
+      "v0.1.64": {
+        "installs": 1,
+        "updates": 1,
+        "checks": 3
+      },
+      "v0.1.63": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 3
+      },
+      "v0.1.62": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 1
+      },
+      "v0.1.61": {
+        "installs": 0,
+        "updates": 4,
+        "checks": 6
+      },
+      "v0.1.60": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 3
+      },
+      "v0.1.59": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 1
+      },
+      "v0.1.58": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 2
+      },
+      "v0.1.57": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 1
+      },
+      "v0.1.56": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 2
+      },
+      "v0.1.55": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 1
+      },
+      "v0.1.54": {
+        "installs": 1,
+        "updates": 2,
+        "checks": 3
+      },
+      "v0.1.53": {
+        "installs": 3,
+        "updates": 2,
+        "checks": 8
+      },
+      "v0.1.52": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 3
+      },
+      "v0.1.51": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 7
+      },
+      "v0.1.50": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 3
+      },
+      "v0.1.49": {
+        "installs": 1,
+        "updates": 1,
+        "checks": 3
+      },
+      "v0.1.48": {
+        "installs": 1,
+        "updates": 0,
+        "checks": 1
+      },
+      "v0.1.47": {
+        "installs": 1,
+        "updates": 0,
+        "checks": 1
+      },
+      "v0.1.46": {
+        "installs": 1,
+        "updates": 2,
+        "checks": 5
+      },
+      "v0.1.45": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 1
+      },
+      "v0.1.44": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 3
+      },
+      "v0.1.43": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 1
+      },
+      "v0.1.42": {
+        "installs": 1,
+        "updates": 1,
+        "checks": 7
+      },
+      "v0.1.41": {
+        "installs": 0,
+        "updates": 4,
+        "checks": 5
+      },
+      "v0.1.40": {
+        "installs": 1,
+        "updates": 3,
+        "checks": 11
+      },
+      "v0.1.39": {
+        "installs": 0,
+        "updates": 0,
+        "checks": 0
+      },
+      "v0.1.38": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 3
+      },
+      "v0.1.37": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 2
+      },
+      "v0.1.36": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 3
+      },
+      "v0.1.35": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 3
+      },
+      "v0.1.34": {
+        "installs": 0,
+        "updates": 3,
+        "checks": 5
+      },
+      "v0.1.33": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 1
+      },
+      "v0.1.32": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 2
+      },
+      "v0.1.31": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 4
+      },
+      "v0.1.30": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 2
+      },
+      "v0.1.29": {
+        "installs": 0,
+        "updates": 4,
+        "checks": 7
+      },
+      "v0.1.28": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 1
+      },
+      "v0.1.27": {
+        "installs": 1,
+        "updates": 3,
+        "checks": 12
+      },
+      "v0.1.26": {
+        "installs": 1,
+        "updates": 2,
+        "checks": 5
+      },
+      "v0.1.25": {
+        "installs": 1,
+        "updates": 1,
+        "checks": 6
+      },
+      "v0.1.24": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 2
+      },
+      "v0.1.23": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 1
+      },
+      "v0.1.22": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 2
+      },
+      "v0.1.21": {
+        "installs": 1,
+        "updates": 2,
+        "checks": 4
+      },
+      "v0.1.20": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 2
+      },
+      "v0.1.19": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 1
+      },
+      "v0.1.18": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 2
+      },
+      "v0.1.17": {
+        "installs": 4,
+        "updates": 2,
+        "checks": 5
+      },
+      "v0.1.16": {
+        "installs": 0,
+        "updates": 1,
+        "checks": 2
+      },
+      "v0.1.15": {
+        "installs": 1,
+        "updates": 1,
+        "checks": 2
+      },
+      "v0.1.14": {
+        "installs": 1,
+        "updates": 1,
+        "checks": 4
+      },
+      "v0.1.13": {
+        "installs": 2,
+        "updates": 1,
+        "checks": 2
+      },
+      "v0.1.12": {
+        "installs": 3,
+        "updates": 2,
+        "checks": 4
+      },
+      "v0.1.11": {
+        "installs": 0,
+        "updates": 3,
+        "checks": 6
+      },
+      "v0.1.10": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 2
+      },
+      "v0.1.9": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 2
+      },
+      "v0.1.8": {
+        "installs": 0,
+        "updates": 3,
+        "checks": 8
+      },
+      "v0.1.7": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 6
+      },
+      "v0.1.6": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 4
+      },
+      "v0.1.5": {
+        "installs": 0,
+        "updates": 2,
+        "checks": 3
+      },
+      "v0.1.4": {
+        "installs": 0,
+        "updates": 3,
+        "checks": 4
+      },
+      "tmux-payload-3.7": {
+        "installs": 0,
+        "updates": 73,
+        "checks": 0
+      }
+    }
   }
 ]
